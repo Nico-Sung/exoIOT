@@ -1,0 +1,94 @@
+/* monCompte */
+
+.container-account {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 3px solid #191e2a;
+    background-color: #151923;
+    margin-top: 20px;
+  
+}
+
+.container-account .left,
+.container-account .right {
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+    border: 2px solid #191e2a;
+    padding: 20px;
+    height: 380px;
+    justify-content: space-between;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.container-account .mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.33%;
+    justify-content: space-evenly;
+}
+
+
+.container-account .mid .bot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container-account .left h1,
+.container-account .right h1,
+.collection-container h1 {
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.container-account .mid h1{
+    font-size: 40px;
+}
+
+
+.container-account .empty {
+    height: 10vw;
+}
+
+.container-account .left .top {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+.container-account .info{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-account .info-container{
+    display: flex;
+}
+
+.container-account .info-container h1{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.container-account .top a,
+.container-account .middle a
+{
+    text-decoration: underline;
+}
+
+.title-collection{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-account  .mid .bot a{
+    text-decoration: underline;
+}

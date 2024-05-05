@@ -1,0 +1,34 @@
+
+
+/*******/
+
+.container-boosters{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.container-booster{
+    display: flex;
+}
+
+.booster {
+    border: 1px solid #490000; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    background-color: #6B62B5; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 20px;
+}
+
+.booster:hover {
+    background-color: #453978; 
+}
+
+.booster h2 {
+    margin: 0;
+    font-size: 18px; 
+    color: white; 
+}
